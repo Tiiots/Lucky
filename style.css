@@ -1,0 +1,143 @@
+body {
+    margin: 3rem 5%;
+    background-color: #ECF4D6; 
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: start;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 6px #265073;    
+    color: #ECF4D6;
+    margin-left: 2rem;
+}
+
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+}
+
+nav {
+    background-color: #2D9596;
+    height: 5vh;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    
+}
+
+nav a {
+    color: #ECF4D6;    
+    text-decoration: none; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;    
+    display: flex;
+    gap: 3rem;
+}
+
+nav li:hover {
+    background-color: #265073;
+    border-radius: 30px;
+    padding: 0 1rem;
+}
+
+
+section {
+    display: flex; 
+    gap: 3rem; 
+    margin: 2rem 0;  
+    
+}
+
+article {
+    flex: 1;
+    background-color: #9AD0C2;
+    border-radius: 25px;
+    text-align: center;
+    padding:  2rem 2rem 2rem;;
+    color: #265073;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+article a {
+    color: #ECF4D6;
+}
+
+article a:hover {
+    color: #265073;
+}
+span {
+    color: #265073;
+    font-size: 5rem;
+    text-shadow: 1px 1px 2px #ECF4D6, 0 0 1em #9AD0C2, 0 0 0.2em #2D9596;;
+}
+
+article:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.first {
+  background-image: url(./resorces/background.jpg); 
+  background-color:  #265073;
+  background-position: center;
+  background-size: cover;
+}
+
+.first > * {  
+    color: #ECF4D6;  
+}
+
+.first > p {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+article img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background: rgb(236,244,214);
+}
+
+footer div {
+    flex: 1;
+}
+
+footer p {
+    border-top: 2px solid #2D9596;
+    text-align: end;
+    color:#2D9596;
+    font-size: 1rem;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+footer img:hover {
+    animation: rotate 2s linear; 
+    animation-iteration-count: infinite;
+    animation-direction:inherit linear;
+}
+
