@@ -36,6 +36,12 @@ nav {
     
 }
 
+@media (max-width:1000px) {
+    section {
+        flex-direction: column;
+    }
+}
+
 nav a {
     color: #ECF4D6;    
     text-decoration: none; 
